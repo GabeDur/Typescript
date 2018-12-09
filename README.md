@@ -1,19 +1,25 @@
 Typescript ver. 2.5.3
 
-Creacion de proyecto:
+Creación de proyecto:
+
 	tsc --init
 
-
 compilacion individual
+
 	tsc archivo.ts
 	
-/*********compilacion general*****************/
-1-A�adir al archivo de configuracion
+***compilacion general***
+
+
+1-Añadir al archivo de configuración
+
 	"compilerOptions":{
 	    "outDir": "./js"
 	},
 	"include":[
 	    "./src/*.ts"
 	]
+	
 2-Ejecutar el comando
+
 	tsc --watch
