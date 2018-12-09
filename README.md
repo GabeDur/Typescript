@@ -1,4 +1,4 @@
-Typescript
+Typescript ver. 2.5.3
 
 Creacion de proyecto:
 	tsc --init
